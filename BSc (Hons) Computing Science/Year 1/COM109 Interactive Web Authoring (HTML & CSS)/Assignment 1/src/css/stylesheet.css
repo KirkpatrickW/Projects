@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+/* HEADER DESIGN */
+#topHeading {
+    /* For Safari */
+    background: -webkit-linear-gradient(left, rgb(90, 0, 0), rgb(120, 0, 1), rgb(90, 0, 0));
+    /* For Internet Explorer*/
+    background: -ms-linear-gradient(left, rgb(90, 0, 0), rgb(120, 0, 1), rgb(90, 0, 0));
+    /* Standard Syntax */
+    background: linear-gradient(to right, rgb(90, 0, 0), rgb(120, 0, 1), rgb(90, 0, 0));
+    padding: 2px;
+    height: 100px;
+    width: 100%;
+}
+
+h1, h2 {
+    margin: 0.6em 0;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 2.5em;
+    line-height: 0.4;
+}
+
+h2 {
+    font-size: 1.75em;
+    line-height: 0.1;
+}
+
+/* BACKGROUND DESIGN */
+
+body {
+    /* For Safari */
+    background: -webkit-linear-gradient(left, rgb(120, 0, 0), rgba(120, 0, 0, 0), rgba(120, 0, 0, 0), rgba(120, 0, 0, 1)), url("../images/background.jpg");
+    /* For Internet Explorer*/
+    background: -ms-linear-gradient(left, rgb(120, 0, 0), rgba(120, 0, 0, 0), rgba(120, 0, 0, 0), rgba(120, 0, 0, 1)), url("../images/background.jpg");
+    /* Standard Syntax */
+    background: linear-gradient(to right, rgb(120, 0, 0), rgba(120, 0, 0, 0), rgba(120, 0, 0, 0), rgba(120, 0, 0, 1)), url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+}
+
+/* LEADERBOARD DESIGN */
+
+#olItem {
+    /* For Safari */
+    background: -webkit-linear-gradient(left, rgb(90, 0, 0), rgb(120, 0, 1), rgb(90, 0, 0));
+    /* For Internet Explorer*/
+    background: -ms-linear-gradient(left, rgb(90, 0, 0), rgb(120, 0, 1), rgb(90, 0, 0));
+    /* Standard Syntax */
+    background: linear-gradient(to right, rgb(90, 0, 0), rgb(120, 0, 1), rgb(90, 0, 0));
+    width: 500px;
+    padding: 10px 30px;
+    font-size: 1.5em;
+    text-align: right;
+    color: white;
+    margin: auto;
+}
+
+.liItem {
+    /* For Safari */
+    background: -webkit-linear-gradient(left, rgb(70, 0, 0), rgb(100, 0, 1), rgb(70, 0, 0));
+    /* For Internet Explorer*/
+    background: -ms-linear-gradient(left, rgb(70, 0, 0), rgb(100, 0, 1), rgb(70, 0, 0));
+    /* Standard Syntax */
+    background: linear-gradient(to right, rgb(70, 0, 0), rgb(100, 0, 1), rgb(70, 0, 0));
+    border: 3px rgb(70, 0, 0) solid;
+    margin: 5px;
+    padding: 15px;
+}
+
+.pName {
+    margin: 100px;
+}
+
+.pScore {
+    font-weight: bold;
+}
+
+.pNameLeader {
+    color: yellow;
+    margin: 100px;
+    font-weight: bolder;
+}
+
+.pScoreLeader {
+    color: yellow;
+    font-weight: bolder;
+}
+
+/* FOOTER DESIGN */
+#footer {
+    /* For Safari */
+    background: -webkit-linear-gradient(left, rgb(90, 0, 0), rgb(120, 0, 1), rgb(90, 0, 0));
+    /* For Internet Explorer*/
+    background: -ms-linear-gradient(left, rgb(90, 0, 0), rgb(120, 0, 1), rgb(90, 0, 0));
+    /* Standard Syntax */
+    background: linear-gradient(to right, rgb(90, 0, 0), rgb(120, 0, 1), rgb(90, 0, 0));
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 0.1;
+    color: white;
+}
+
+#footerFieldset {
+    /* For Safari */
+    background: -webkit-linear-gradient(left, rgb(70, 0, 0), rgb(100, 0, 1), rgb(70, 0, 0));
+    /* For Internet Explorer*/
+    background: -ms-linear-gradient(left, rgb(70, 0, 0), rgb(100, 0, 1), rgb(70, 0, 0));
+    /* Standard Syntax */
+    background: linear-gradient(to right, rgb(70, 0, 0), rgb(100, 0, 1), rgb(70, 0, 0));
+    border: 4px rgb(70, 0, 0) solid;
+    color: white;
+    width: auto;
+    font-size: 1.5em;
+}
+
+.error {
+    color: red;
+    font-size: 0.75em;
+}
+
+/* Submit Button */
+
+#btnSubmit {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 4px 4px ;
+    text-align: center;
+    font-size: 16px;
+    transition-duration: 0.2s;
+}
+
+#btnSubmit:hover {
+    background-color: lightgray;
+}
+
+#btnSubmit:active {
+    background-color: gray;
+    color: white;
+}
+
+/* Add New Information Button */
+
+#btnNewInformation {
+    background-color: rgb(150, 0, 0);
+    border: double rgb(110, 0, 0);
+    color: white;
+    padding: 10px 10px ;
+    text-align: center;
+    font-size: 18px;
+    transition-duration: 0.2s;
+}
+
+#btnNewInformation:hover {
+    background-color: rgb(200, 0, 0);
+    color: white;
+}
+
+#btnNewInformation:active {
+    background-color: white;
+    color: black;
+}

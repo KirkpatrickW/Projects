@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>COM109 Interactive Web Authoring | Assignment 1 | Basketball Leaderboard </title>
+        <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+        <link rel="manifest" href="favicon_io/site.webmanifest">
+    </head>
+
+    <body>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="js/app.js"></script>
+
+        <header id="topHeading">
+            <h1> BASKETBALL LEADERBOARD</h1>
+            <h2> PLAYER CURRENT STANDINGS</h2>
+        </header><br>
+        
+        <ol id="olItem">
+            <li class="liItem" id="li1">
+                <span class="pNameLeader">BRYANT, Kobe</span>
+                <span class="pScoreLeader">100</span>
+            </li>
+
+            <li class="liItem" id="li2">
+                <span class="pName">LeBRON, James</span>
+                <span class="pScore">95</span>
+            </li>
+
+            <li class="liItem" id="li3">
+                <span class="pName">O'NEAL, Shaquille</span>
+                <span class="pScore">90</span>
+            </li>
+
+            <li class="liItem" id="li4">
+                <span class="pName">JORDAN, Micheal</span>
+                <span class="pScore">85</span>
+            </li>
+
+            <li class="liItem" id="li5">
+                <span class="pName">CURRY, Stephen</span>
+                <span class="pScore">80</span>
+            </li>
+        </ol>
+        
+        <footer id="footer">
+            <input type="button" id="btnNewInformation" value="Add New Information">
+            <fieldset id="footerFieldset">
+                <h3>ADD NEW PLAYER TO THE LEADERBOARD</h3>
+                <form name="form">
+                    <label for="addName">Name: </label>
+                    <input name="addName" id="addName" type="text">
+                    <span class="error" id="nameError">Minimum of 4 Characters Required.</span>
+                    <label for="addScore">Current Score: </label>
+                    <input name="addScore" id="addScore" type="text">
+                    <span class="error" id="scoreError">Must be a number within the range 0 to 100.</span>
+                    <input type="button" id="btnSubmit" value="Submit">
+                </form>
+            </fieldset>
+        </footer>
+    </body>
+</html>
